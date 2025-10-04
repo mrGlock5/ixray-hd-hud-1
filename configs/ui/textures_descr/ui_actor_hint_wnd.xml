@@ -132,9 +132,15 @@
 		<texture id="ui_mmap_death_actor_2"		x="403" y="584" width="20" height="20" />
 		<texture id="ui_pda2_death_actor_2"		x="403" y="584" width="20" height="20" />
 
-		<texture id="ui_mmap_danger_indicator"		x="780" y="247" width="170" height="170" />
+		<!-- <texture id="ui_mmap_danger_indicator"		x="780" y="247" width="170" height="170" /> -->
 		
-		<texture id="ui_item_count_back_2" x="403" y="629" width="50" height="40" />
+		<texture id="ui_item_count_back_2"                                  x="456" y="542" width="24" height="18" />
+		
+		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_2" 			x="456" y="573" width="24" height="18" />
+		
+		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_2_b" 			x="456" y="573" width="4" height="18" />
+		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_2_back" 		x="460" y="573" width="20" height="18" />
+		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_2_e" 			x="480" y="573" width="4" height="18" />
 		
 	</file>
 </w>
