@@ -1,10 +1,35 @@
 
 <window>
-	<window rel_size="1.25" width="10" height="10" alignment="c"/>
+	<window rel_size="1.05" width="0" height="0" alignment="c"/>
+	
+	<!-- НОВЫЙ РЕЖИМ: Анимация альфа-канала для индикатора освещенности -->
+	<!-- Круглая текстура с плавной пульсацией альфа-канала -->
+	<!-- Цвет: красный-алый (r="255" g="0" b="0") -->
+	<!-- По умолчанию скрыт (alpha_min="0.0"), появляется при обнаружении противника -->
+	<luminosity_progress x="10" y="10" width="0" height="0" 
+	                     alignment="c" 
+						 stretch="1"
+	                     alpha_animation="1"
+	                     alpha_speed="0.8"
+	                     alpha_min="0.0"
+	                     alpha_max="0.9"
+	                     alpha_type="sine"
+	                     r="255" g="91" b="91">
+		<texture>ui_inGame2_Radar_green_bar</texture>
+	</luminosity_progress>
+	
+	<!-- Старый режим секторов -->
+	<!--
 	<luminosity_progress x="10" y="10" width="10" height="10" alignment="c" stretch="1" sector_count="24" clockwise="1" begin_angle="-0.227" end_angle="0.835" blend="0">
 		<texture>ui_inGame2_Radar_green_bar</texture>
 	</luminosity_progress>
-	<noise_progress x="10" y="10" width="10" height="10" stretch="1" alignment="c" sector_count="24" clockwise="0" begin_angle="3.365" end_angle="4.37" blend="0">
+	-->
+	
+	<!-- Индикатор шума (без изменений, использует старый режим секторов) -->
+	<noise_progress x="10" y="10" width="10" height="10" 
+	                stretch="1" alignment="c" 
+	                sector_count="24" clockwise="0" 
+	                begin_angle="3.365" end_angle="4.37" blend="0">
 		<texture>ui_inGame2_Radar_blue_bar</texture>
 	</noise_progress>
 </window>

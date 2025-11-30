@@ -26,13 +26,13 @@
 
 	    <texture id="ui_inGame2_Radar_main_window" x="531" y="0" width="210" height="210" />
 	    <texture id="ui_inGame2_Radar_blue_bar" x="500000" y="500000" width="0" height="0" />
-	    <texture id="ui_inGame2_Radar_green_bar" x="500000" y="500000" width="0" height="0" />
+	    <texture id="ui_inGame2_Radar_green_bar" x="827000" y="218000" width="180" height="180" />
 	    <texture id="ui_inGame2_Radar_compass" x="552" y="242" width="166" height="166" />
 	    <texture id="ui_inGame_actor_point" x="507" y="192" width="9" height="11" />	
 
-        <texture id="ui_inGame2_Patroni_HUD_main_window" x="782" y="14" width="225" height="129" />
-        <texture id="ui_inGame2_Patroni_HUD_red_bar" x="789" y="161" width="147" height="18" />
-        <texture id="ui_inGame2_Patroni_HUD_blue_bar" x="789" y="184" width="147" height="13" />
+        <texture id="ui_inGame2_Patroni_HUD_main_window" x="781" y="15" width="214" height="102" />
+        <texture id="ui_inGame2_Patroni_HUD_red_bar" x="780" y="130" width="161" height="23" />
+        <texture id="ui_inGame2_Patroni_HUD_blue_bar" x="780" y="155" width="161" height="20" />
 
 		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_b" 	x="503" y="92" width="3" height="23" />
 		<texture id="ui_inGame2_Patroni_HUD_active_items_icon_back" x="506" y="92" width="3" height="23" />
@@ -143,10 +143,6 @@
 		
 		<texture id="ui_mmap_death_actor_2"		x="78" y="483" width="10" height="10" />
 		<texture id="ui_pda2_death_actor_2"		x="78" y="483" width="10" height="10" />
-		
-<!-- new new alarm indicator -->
-
-		<texture id="ui_mmap_danger_indicator"		x="780" y="247" width="170" height="170" />
 		
 		<texture id="ui_item_count_back_2" x="403" y="629" width="50" height="40" />
 		

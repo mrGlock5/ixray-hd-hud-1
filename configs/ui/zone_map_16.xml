@@ -12,11 +12,12 @@
 
 		<compass x="0.5" y="0.5" width="160" height="160" heading="1" stretch="1" alignment="c">
 			<texture>ui_inGame2_Radar_compass</texture>
-			<svg>Radar_compass.svg</svg>
+			<svg>ui_radar_compass.svg</svg>
 		</compass>
 
-		<center width="6" height="11" alignment="c" stretch="1">
+		<center width="5" height="10" alignment="c" stretch="1">
 			<texture>ui_inGame_actor_point</texture>
+			<svg>actor_point.svg</svg>
 		</center>
 
 		<static_counter x="0.132" y="0.825" width="18" height="16" alignment="c">
