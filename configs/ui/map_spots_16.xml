@@ -655,9 +655,11 @@
         </ui_pda2_mechanic_location>
         <ui_pda2_mechanic_location_spot x="0" y="0" width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Stalker_machanik</texture>
+                <svg>icon_Stalker_machanik.svg</svg>
         </ui_pda2_mechanic_location_spot>
         <ui_pda2_mechanic_location_mini_spot x="0" y="0" width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Stalker_machanik_small</texture>
+                <svg>icon_Stalker_machanik.svg</svg>
         </ui_pda2_mechanic_location_mini_spot>
 
         <ui_pda2_trader_location hint="st_ui_pda_legend_trader">
@@ -666,9 +668,11 @@
         </ui_pda2_trader_location>
         <ui_pda2_trader_location_spot x="0" y="0" width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Stalker_Trader</texture>
+                <svg>icon_Stalker_Trader.svg</svg>
         </ui_pda2_trader_location_spot>
         <ui_pda2_trader_location_mini_spot x="0" y="0" width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Stalker_Trader_small</texture>
+                <svg>icon_Stalker_Trader.svg</svg>
         </ui_pda2_trader_location_mini_spot>
 
         <ui_pda2_scout_location hint="st_ui_pda_legend_scout">
@@ -677,9 +681,11 @@
         </ui_pda2_scout_location>
         <ui_pda2_scout_location_spot x="0" y="0" width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Stalker_guide</texture>
+                <svg>icon_Stalker_guide.svg</svg>
         </ui_pda2_scout_location_spot>
         <ui_pda2_scout_location_mini_spot x="0" y="0" width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Stalker_guide_small</texture>
+                <svg>icon_Stalker_guide.svg</svg>
         </ui_pda2_scout_location_mini_spot>
 
         <ui_pda2_quest_npc_location hint="st_ui_pda_legend_vip">
@@ -699,9 +705,11 @@
         </ui_pda2_medic_location>
         <ui_pda2_medic_location_spot x="0" y="0" width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Stalker_Medic</texture>
+                <svg>icon_Stalker_Medic.svg</svg>
         </ui_pda2_medic_location_spot>
         <ui_pda2_medic_location_mini_spot x="0" y="0" width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Stalker_Medic_small</texture>
+                <svg>icon_Stalker_Medic.svg</svg>
         </ui_pda2_medic_location_mini_spot>
 
         <ui_pda2_actor_box_location hint="st_ui_pda_actor_box">
@@ -710,9 +718,11 @@
         </ui_pda2_actor_box_location>
         <ui_pda2_actor_box_location_spot width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Actor_Box</texture>
+                <svg>icon_Actor_Box.svg</svg>
         </ui_pda2_actor_box_location_spot>
         <ui_pda2_actor_box_location_mini_spot width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Actor_Box_small</texture>
+                <svg>icon_Actor_Box.svg</svg>
         </ui_pda2_actor_box_location_mini_spot>
 
         <ui_pda2_actor_sleep_location hint="st_ui_pda_sleep_place">
@@ -721,9 +731,11 @@
         </ui_pda2_actor_sleep_location>
         <ui_pda2_actor_sleep_location_spot width="19" height="19" stretch="1" alignment="c" location_level="-1" scale_min="3">
                 <texture>ui_inGame2_PDA_icon_Place_to_rest</texture>
+                <svg>icon_Place_to_rest.svg</svg>
         </ui_pda2_actor_sleep_location_spot>
         <ui_pda2_actor_sleep_location_mini_spot width="14" height="14" stretch="1" alignment="c" location_level="-1">
                 <texture>ui_inGame2_PDA_icon_Place_to_rest_small</texture>
+                <svg>icon_Place_to_rest.svg</svg>
         </ui_pda2_actor_sleep_location_mini_spot>
 
         <primary_object>

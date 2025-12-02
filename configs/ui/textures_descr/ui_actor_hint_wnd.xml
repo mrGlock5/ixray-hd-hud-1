@@ -24,7 +24,7 @@
 	    <texture id="ui_inGame2_hint_wnd_Properties" x="284" y="21" width="242" height="7" />
 	    <texture id="ui_inGame2_hint_wnd_upgrades" x="284" y="33" width="242" height="7" />
 
-	    <texture id="ui_inGame2_Radar_main_window" x="531" y="0" width="210" height="210" />
+	    <texture id="ui_inGame2_Radar_main_window" x="552" y="9" width="216" height="216" />
 	    <texture id="ui_inGame2_Radar_blue_bar" x="500000" y="500000" width="0" height="0" />
 	    <texture id="ui_inGame2_Radar_green_bar" x="827000" y="218000" width="180" height="180" />
 	    <texture id="ui_inGame2_Radar_compass" x="552" y="242" width="166" height="166" />

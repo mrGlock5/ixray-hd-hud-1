@@ -209,18 +209,18 @@
 		<indik_psi x="16" y="280" width="26" height="30" stretch="1"/>
 		<indik_acid x="16" y="320" width="26" height="30" stretch="1"/>
 
-		<back x="841" y="635" width="150" height="100" stretch="1">
+		<back x="865" y="635" width="150" height="100" stretch="1">
 			<texture>ui_inGame2_Patroni_HUD_main_window</texture>
 		</back>
 
-		<progress_bar_health x="868" y="687" width="112" height="19" horz="1" min="0" max="1" pos="0" 
+		<progress_bar_health x="892" y="687" width="112" height="19" horz="1" min="0" max="1" pos="0" 
 		expression="floor(fltPlayerHealth * 55.0) / 55.0">
 			<progress stretch="1" ><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
 				<texture>ui_inGame2_Patroni_HUD_red_bar</texture>
 			</progress stretch="1">
 		</progress_bar_health>
 
-	    <progress_bar_stamina x="868" y="710" width="112" height="14" horz="1" min="0" max="1" pos="0"
+	    <progress_bar_stamina x="892" y="710" width="112" height="14" horz="1" min="0" max="1" pos="0"
 		expression="floor(fltPlayerPower * 55.0) / 55.0">
 	        <progress stretch="1" ><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
 		        <texture>ui_inGame2_Patroni_HUD_blue_bar</texture>
@@ -230,11 +230,11 @@
 		<active_ammo_color r="227" g="227" b="227" a="255"/>
         <inactive_ammo_color r="199" g="199" b="199" a="130"/>
 
-		<static_cur_ammo x="855" y="640" width="54" height="37"> 
+		<static_cur_ammo x="882" y="640" width="54" height="37"> 
 			<text complex_mode="0" font="font_oswald_30" color="ui_1" align="c" vert_align="c">ammo</text>
 		</static_cur_ammo>
 
-	    <static_fmj_ammo x="890" y="647" width="26" height="15">
+	    <static_fmj_ammo x="918" y="647" width="26" height="15">
 	        <text align="c" complex_mode="0" font="font_oswald_24" color="ui_1">fmj</text>
 	    </static_fmj_ammo>
 
@@ -246,11 +246,11 @@
 	        <text align="c" complex_mode="0" font="letterica16" color="ui_1" vert_align="c">gr</text>
 	    </static_grenade>
 
-		<static_wpn_icon x="948" y="657" width="24" height="30" align="c" alignment="c" display_mode="text">
+		<static_wpn_icon x="971" y="657" width="24" height="30" align="c" alignment="c" display_mode="text">
 			<text font="letterica16" color="ui_1" align="c" vert_align="c"/>
 		</static_wpn_icon>
 
-	    <static_fire_mode x="850" y="650" width="14" height="19">
+	    <static_fire_mode x="873" y="650" width="14" height="19">
 	        <text font="letterica16" color="ui_1" align="c" vert_align="c"/>
 	    </static_fire_mode>
 	</hud_states>
