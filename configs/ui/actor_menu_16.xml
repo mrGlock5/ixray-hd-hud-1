@@ -220,7 +220,7 @@
 		</slot>
 		<slot> <!-- Backpack -->
 		</slot>
-		<slot> <!-- 2nd Pistol / PISTOL_SLOT_NEW - Vertical 2x1 slot -->
+		<slot> <!-- PISTOL_SLOT_NEW -->
 			<slot_highlight x="383" y="354" width="45" height="95" stretch="1">
 				<texture>ui_inGame2_pistol_highlighter</texture>
 			</slot_highlight>
