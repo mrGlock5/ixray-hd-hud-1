@@ -116,7 +116,7 @@
 				virtual_cells="1" 
 				vc_vert_align="c" 
 				vc_horiz_align="c"/>
-    		<slot_progress x="397" y="340" width="47" height="5" horz="1" min="0" max="1" pos="0">
+    		<slot_progress x="398" y="339" width="45" height="5" horz="1" min="0" max="1" pos="0">
     		    <progress stretch="1">
     		        <texture r="142" g="149" b="149">ui_inGame2_inventory_status_bar</texture>
     		    </progress>
@@ -139,7 +139,7 @@
 				virtual_cells="1" 
 				vc_vert_align="c" 
 				vc_horiz_align="c" />
-    		<slot_progress x="581" y="340" width="47" height="5" horz="1" min="0" max="1" pos="0">
+    		<slot_progress x="579" y="339" width="45" height="5" horz="1" min="0" max="1" pos="0">
     		    <progress stretch="1">
     		        <texture r="142" g="149" b="149">ui_inGame2_inventory_status_bar</texture>
     		    </progress>
@@ -164,7 +164,7 @@
 					virtual_cells="1" 
 					vc_vert_align="c"
 					vc_horiz_align="c"/>
-    		<slot_progress x="488" y="340" width="47" height="5" horz="1" min="0" max="1" pos="0">
+    		<slot_progress x="488" y="339" width="45" height="5" horz="1" min="0" max="1" pos="0">
     		    <progress stretch="1">
     		        <texture r="142" g="149" b="149">ui_inGame2_inventory_status_bar</texture>
     		    </progress>
@@ -200,7 +200,7 @@
 			<slot_highlight x="467" y="38" width="90" height="118" stretch="1">
 				<texture>ui_inGame2_helmet_highlighter</texture>
 			</slot_highlight>
-    		<slot_progress x="488" y="148" width="47" height="5" horz="1" min="0" max="1" pos="0">
+    		<slot_progress x="488" y="148" width="45" height="5" horz="1" min="0" max="1" pos="0">
     		    <progress stretch="1">
     		        <texture r="142" g="149" b="149">ui_inGame2_inventory_status_bar</texture>
     		    </progress>
