@@ -27,48 +27,45 @@
 
 	<!-- ИНДИКАТОРЫ СОСТОЯНИЙ -->
 	
-
-		<indicator_starvation x="905" y="590" width="20" height="28" stretch="1"/>		<!--"4"-->
-		<indicator_helmet_broken x="965" y="590" width="20" height="28" stretch="1"/>	<!--"7"-->
-		<indicator_outfit_broken x="945" y="590" width="20" height="28" stretch="1"/>	<!--"6"-->
-		<indicator_weapon_broken x="925" y="590" width="20" height="28" stretch="1"/>	<!--"5"-->
-		<indicator_overweight x="845" y="590" width="20" height="28" stretch="1"/>		<!--"3"-->
-		<indicator_radiation x="845" y="590" width="20" height="28" stretch="1"/>		<!--"1"-->
-		<indicator_bleeding x="865" y="590" width="20" height="28" stretch="1"/>		<!--"2"-->
-
+		<indicator_starvation x="921" y="600" width="20" height="28" stretch="1"/>		
+		<indicator_helmet_broken x="996" y="600" width="20" height="28" stretch="1"/>	
+		<indicator_outfit_broken x="971" y="600" width="20" height="28" stretch="1"/>	
+		<indicator_weapon_broken x="946" y="600" width="20" height="28" stretch="1"/>	
+		<indicator_overweight x="896" y="600" width="20" height="28" stretch="1"/>		
+		<indicator_radiation x="846" y="600" width="20" height="28" stretch="1"/>		
+		<indicator_bleeding x="871" y="600" width="20" height="28" stretch="1"/>		
 	 
 	<!-- БУСТЕРЫ -->
 
-
-		<indicator_booster_psy x="20" y="590" width="18" height="28" stretch="1">
+		<indicator_booster_psy x="835" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_Psy</texture>
 		</indicator_booster_psy>
 			
-		<indicator_booster_radia x="50" y="590" width="18" height="28" stretch="1">
+		<indicator_booster_radia x="800" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_Radiation</texture>
 		</indicator_booster_radia>
 			
-		<indicator_booster_chem x="80" y="590" width="18" height="28" stretch="1">
+		<indicator_booster_chem x="765" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_biological</texture>
 		</indicator_booster_chem>
 			
-		<indicator_booster_wound x="50" y="645" width="18" height="28" stretch="1">
+		<indicator_booster_wound x="730" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_blood</texture>
 		</indicator_booster_wound>
 			
-		<indicator_booster_weight x="100" y="645" width="18" height="28" stretch="1">
+		<indicator_booster_weight x="695" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_force</texture>
 		</indicator_booster_weight>
 			
-		<indicator_booster_health x="20" y="645" width="18" height="28" stretch="1">
+		<indicator_booster_health x="660" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_health</texture>
 		</indicator_booster_health>
 			
-		<indicator_booster_power x="130" y="645" width="18" height="28" stretch="1">
+		<indicator_booster_power x="625" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_stamina</texture>
 		</indicator_booster_power>
 			
-		<indicator_booster_rad x="80" y="645" width="18" height="28" stretch="1">
+		<indicator_booster_rad x="590" y="700" width="18" height="28" stretch="1">
 			<texture>ui_inGame2_shield_radiation_cleanup</texture>
 		</indicator_booster_rad>
 
@@ -213,14 +210,14 @@
 			<texture>ui_inGame2_Patroni_HUD_main_window</texture>
 		</back>
 
-		<progress_bar_health x="891" y="686" width="112" height="20" horz="1" min="0" max="1" pos="0" 
+		<progress_bar_health x="891" y="686" width="136" height="20" horz="1" min="0" max="1" pos="0" 
 		expression="floor(fltPlayerHealth * 55.0) / 55.0">
 			<progress stretch="1" ><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
 				<texture>ui_inGame2_Patroni_HUD_red_bar</texture>
 			</progress stretch="1">
 		</progress_bar_health>
 
-	    <progress_bar_stamina x="891" y="709" width="112" height="14" horz="1" min="0" max="1" pos="0"
+	    <progress_bar_stamina x="891" y="709" width="136" height="14" horz="1" min="0" max="1" pos="0"
 		expression="floor(fltPlayerPower * 55.0) / 55.0">
 	        <progress stretch="1" ><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
 		        <texture>ui_inGame2_Patroni_HUD_blue_bar</texture>
@@ -230,29 +227,58 @@
 		<active_ammo_color r="255" g="255" b="255" a="255"/>
         <inactive_ammo_color r="199" g="199" b="199" a="130"/>
 
+<!-- АДАПТИВНЫЙ ВИДЖЕТ ПАТРОНОВ -->
+<!-- При отключении виджета включаются секции оригинала -->
+<!-- Виджет представляет собой контейнер -->
+		<static_active_ammo_type x="892" y="648" width="55" height="28"
+			magazine_font="font_oswald_30"
+			magazine_x="-42"
+			magazine_y="-1"
+			separator="1"
+			separator_x="18"
+			separator_y="-1"
+			backpack_font="font_oswald_24"
+			backpack_x="28"
+			backpack_y="2"
+			low_ammo_color="210,65,65,255"
+			low_ammo_threshold="0.02"> 											<!-- Значения от 0.0 (0%) - 1.0 (100%)-->
+			<text font="font_oswald_24" r="255" g="255" b="255"></text>
+		</static_active_ammo_type>
+
 		<static_cur_ammo x="882" y="640" width="54" height="37"> 
 			<text complex_mode="0" font="font_oswald_30" r="255" g="255" b="255" a="255" align="c" vert_align="c">ammo</text>
 		</static_cur_ammo>
 
-	    <static_fmj_ammo x="918" y="647" width="26" height="15">
+	    <static_fmj_ammo x="900" y="648" width="26" height="15">
 	        <text align="c" complex_mode="0" font="font_oswald_24" r="255" g="255" b="255" a="190">fmj</text>
 	    </static_fmj_ammo>
 
-	    <static_ap_ammo x="912000" y="640000" width="26" height="15">
+	    <static_ap_ammo x="900" y="648" width="26" height="15">
 	        <text align="c" complex_mode="0" font="font_oswald_24" r="255" g="255" b="255" a="255">ap</text>
 	    </static_ap_ammo>
 
-	    <static_grenade x="865000" y="688000" width="14" height="19">
+	    <static_grenade x="865" y="688" width="14" height="19">
 	        <text align="c" complex_mode="0" font="letterica16" color="ui_1" vert_align="c">gr</text>
 	    </static_grenade>
 
-		<static_wpn_icon x="971" y="657" width="24" height="30" align="c" alignment="c" display_mode="text">
-			<text font="letterica16" color="ui_1" align="c" vert_align="c"/>
+<!--
+		<caliber_table x="982" y="668" width="64" height="32" align="c" alignment="c" file="ui_ammo_caliber_icons.xml" icon_scale="1.0">
+			<icon x="44" y="0" width="5" height="9"/>
+			<text x="0" y="0" font="font_oswald_22" color="ui_1" align="l" vert_align="c"/>
+		</caliber_table>
+-->
+
+		<static_wpn_icon x="972" y="660" width="64" height="32" align="c" alignment="c" display_mode="text">
+			<text font="font_rubik_16" color="ui_1" align="c" vert_align="c"/>
 		</static_wpn_icon>
 
-	    <static_fire_mode x="873" y="650" width="14" height="19">
-	        <text font="letterica16" color="ui_1" align="c" vert_align="c"/>
+	    <static_fire_mode x="874" y="654" width="11" height="14" use_icon="1">
+	        <text font="letterica16" r="207" g="207" b="207" a="255" align="c" vert_align="c"/>
+				<mode_mapping text="1" icon="icon_fmode_single"/>
+				<mode_mapping text="a" icon="icon_fmode_auto"/>
+				<mode_mapping text="A" icon="icon_fmode_auto"/>
+				<mode_mapping text="2" icon="icon_fmode_2burst"/>
+				<mode_mapping text="3" icon="icon_fmode_3burst"/>
 	    </static_fire_mode>
 	</hud_states>
-
 </w>

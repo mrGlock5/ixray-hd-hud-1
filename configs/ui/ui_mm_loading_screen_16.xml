@@ -14,31 +14,31 @@
     <loading_logo x="104" y="173" width="816" height="512" stretch="1">
     </loading_logo>
 
-    <loading_progress_background x="310" y="599" width="512" height="9" stretch="1">
-        <texture width="405" height="4" color="black" a="255" stretch="1">ui_mm_loading_progress_bar</texture>
+    <loading_progress_background x="306" y="589" width="410" height="10">
+        <texture color="black" a="255">ui_mm_loading_progress_bar</texture>
     </loading_progress_background>
 
-    <loading_progress x="310" y="599" width="506" height="4">
+    <loading_progress x="257" y="589" width="510" height="8">
         <texture>ui_mm_loading_progress_bar</texture>
     </loading_progress>
 
-    <loading_progress_percent x="310" y="574" width="405" height="20" stretch="1">
-        <text align="c" r="170" g="170" b="170" a="0" font="letterica18"/>
+    <loading_progress_percent x="307" y="589" width="410" height="8">
+        <text align="c" r="170" g="170" b="170" a="0" font="font_rubik_16"/>
     </loading_progress_percent>
 
-    <loading_stage x="310" y="530" width="405" height="20" stretch="1">
-        <text align="c" r="170" g="170" b="170" font="letterica18"/>
+    <loading_stage x="260" y="530" width="506" height="20">
+        <text align="c" r="170" g="170" b="170" font="font_rubik_16"/>
     </loading_stage>
 
-    <loading_header x="310" y="622" width="405" height="20" stretch="1">
-        <text align="c" r="103" g="103" b="103" font="letterica18"/>
+    <loading_header x="256" y="630" width="506" height="20">
+        <text align="c" r="255" g="255" b="255" font="font_rubik_regular_20"/>
     </loading_header>
 
-    <loading_tip_number x="310" y="658" width="405" height="20" stretch="1">
-        <text align="c" r="103" g="103" b="103" font="letterica18"/>
+    <loading_tip_number x="256" y="652" width="506" height="20">
+        <text align="c" r="103" g="103" b="103" font="font_rubik_20"/>
     </loading_tip_number>
 
-    <loading_tip x="273" y="676" width="480" height="80" complex_mode="1" stretch="1">
-        <text alignment="c" align="c" r="103" g="103" b="103" font="letterica18"/>
+    <loading_tip x="292" y="676" width="440" height="85" complex_mode="1">
+        <text alignment="c" align="c" r="103" g="103" b="103" font="font_rubik_16"/>
     </loading_tip>
 </w>

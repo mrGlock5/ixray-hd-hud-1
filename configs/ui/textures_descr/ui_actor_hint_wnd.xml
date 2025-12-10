@@ -24,11 +24,11 @@
 	    <texture id="ui_inGame2_hint_wnd_Properties" x="284" y="21" width="242" height="7" />
 	    <texture id="ui_inGame2_hint_wnd_upgrades" x="284" y="33" width="242" height="7" />
 
-	    <texture id="ui_inGame2_Radar_main_window" x="552" y="9" width="216" height="216" />
+	    <texture id="ui_inGame2_Radar_main_window" x="547" y="0" width="227" height="227" />
 	    <texture id="ui_inGame2_Radar_blue_bar" x="500000" y="500000" width="0" height="0" />
 	    <texture id="ui_inGame2_Radar_green_bar" x="827000" y="218000" width="180" height="180" />
-	    <texture id="ui_inGame2_Radar_compass" x="552" y="242" width="166" height="166" />
-	    <texture id="ui_inGame_actor_point" x="507" y="192" width="9" height="11" />	
+	    <texture id="ui_inGame2_Radar_compass" x="572" y="244" width="172" height="172" />
+	    <texture id="ui_inGame_actor_point" x="507" y="192" width="9" height="11" />	 
 
         <texture id="ui_inGame2_Patroni_HUD_main_window" x="782" y="14" width="213" height="106" />
         <texture id="ui_inGame2_Patroni_HUD_red_bar" x="780" y="127" width="194" height="19"/>
@@ -115,12 +115,14 @@
 	    <texture id="secondary_task_spot_below" x="502" y="127" width="19" height="16" />
 	    <texture id="secondary_task_spot_above" x="502" y="113" width="19" height="16" />
 
+<!---
 	    <texture id="ui_inGame2_bleeding_inv_green" 	x="819" y="933" width="45" height="45" />
 	    <texture id="ui_inGame2_bleeding_inv_yellow" 	x="727" y="933" width="45" height="45" />
 	    <texture id="ui_inGame2_bleeding_inv_red" 		x="543" y="933" width="45" height="45" />
 	    <texture id="ui_inGame2_radiation_inv_green" 	x="865" y="933" width="45" height="45" />
 	    <texture id="ui_inGame2_radiation_inv_yellow" 	x="773" y="933" width="45" height="45" />
 	    <texture id="ui_inGame2_radiation_inv_red" 		x="589" y="933" width="45" height="45" />
+-->
 		
 <!-- map pointers -->
 		<texture id="ui_mmap_squad_leader_2"	x="78" y="454" width="10" height="10" />
@@ -132,7 +134,13 @@
 		<texture id="ui_mmap_death_actor_2"		x="78" y="483" width="10" height="10" />
 		<texture id="ui_pda2_death_actor_2"		x="78" y="483" width="10" height="10" />
 		
-		<texture id="ui_item_count_back_2" x="403" y="629" width="50" height="40" />
+		<texture id="ui_item_count_back_2" 		x="403" y="629" width="50" height="40" />
+
+<!-- fire mod icons -->
+		<texture id="icon_fmode_auto"    		x="52" y="531" width="18" height="18" />
+		<texture id="icon_fmode_single"  		x="52" y="550" width="18" height="18" />
+		<texture id="icon_fmode_2burst"  		x="52" y="569" width="18" height="18" />
+		<texture id="icon_fmode_3burst"  		x="52" y="588" width="18" height="18" />
 		
 	</file>
 </w>

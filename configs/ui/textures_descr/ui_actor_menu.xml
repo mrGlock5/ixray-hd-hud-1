@@ -2,12 +2,12 @@
     <file name="ui\ui_actor_menu" scale="2">
 	    <texture id="ui_inGame2_inventory_back" x="341" y="0" width="683" height="768" />
 	    <texture id="ui_inGame2_left_side" x="683" y="0" width="341" height="768" />
-	    <texture id="ui_inGame2_center_trade_devider" x="683" y="768" width="341" height="164" />
+	    <texture id="ui_inGame2_center_trade_devider" x="683" y="768" width="341" height="163" />
 	    <texture id="ui_inGame2_inventory_status_bar" x="341" y="776" width="58" height="5" />
 	    <texture id="ui_inGame2_inventory_item_status_bar" x="341" y="776" width="38" height="5" />
 	    <texture id="ui_inGame2_inventory_item_status_bar_16" x="341" y="776" width="30" height="5" />
-	    <texture id="ui_inGame2_inventory_health_bar" x="341" y="789" width="214" height="16" /> 		
-	    <texture id="ui_inGame2_inventory_progress_bar" x="341" y="789" width="166" height="16" />		
+	    <texture id="ui_inGame2_inventory_health_bar" x="341" y="789" width="214" height="16" />
+	    <texture id="ui_inGame2_inventory_progress_bar" x="341" y="789" width="122" height="16" />
 
 	    <texture id="ui_inGame2_repair_button_h" x="215" y="813" width="85" height="29" />
 	    <texture id="ui_inGame2_repair_button_t" x="300" y="813" width="85" height="29" />
@@ -30,9 +30,9 @@
 	    <texture id="ui_inGame2_big_inventory_button_d" x="341" y="926" width="243" height="24" />
 
 	    <texture id="ui_inGame2_repair_panel" x="0" y="0" width="341" height="768" />
-	    <texture id="ui_inGame2_artefact_blocker" x="476" y="849" width="63" height="63" />
-	    <texture id="ui_inGame2_helmet_blocker" x="558" y="778" width="124" height="92" />
-		<texture id="ui_inGame2_GameSpy_logo" x="1" y="993" width="130" height="30" />			
+	    <texture id="ui_inGame2_artefact_blocker" x="475" y="848" width="63" height="63" />
+	    <texture id="ui_inGame2_helmet_blocker" x="562" y="776" width="113" height="118" />
+		<texture id="ui_inGame2_GameSpy_logo" x="1" y="993" width="130" height="30" />
 	</file>
 
 	<file name="ui\ui_actor_widescreen_sidepanels" scale="2">
@@ -40,36 +40,34 @@
 	    <texture id="ui_inGame2_widescreen_sidepanels_right" x="128" y="0" width="128" height="768" />
    </file>
 
-	<file name="ui\ui_actor_hint_wnd" scale="2"> 
-	    <texture id="ui_inGame2_radiation_icon_part_1" x="501" y="124" width="21" height="21" />
-	    <texture id="ui_inGame2_radiation_icon_part_2" x="499" y="183" width="25" height="25" />
-	    <texture id="ui_inGame2_radiation_icon_part_3" x="496" y="251" width="31" height="31" />
+	<file name="ui\ui_actor_menu_atribute" scale="2">
+	    <texture id="ui_inGame2_weapon_highlighter" x="7" y="6" width="97" height="375" />
+		<texture id="ui_inGame2_helmet_highlighter" x="112" y="6" width="114" height="116" />
+		<texture id="ui_inGame2_armor_highlighter" x="112" y="130" width="114" height="182" />
+		<texture id="ui_inGame2_detector_highlighter" x="112" y="320" width="111" height="61" />
+		<texture id="ui_inGame2_quick_item_highlighter" x="7" y="388" width="79" height="70" />
+		<texture id="ui_inGame2_artefakt_highlighter" x="7" y="464" width="63" height="65" />
 
-	    <texture id="ui_inGame2_blood_icon_part_1" x="505" y="153" width="13" height="20" />
-	    <texture id="ui_inGame2_blood_icon_part_2" x="503" y="218" width="17" height="26" />
-	    <texture id="ui_inGame2_blood_icon_part_3" x="500" y="289" width="23" height="33" />
-	</file>
+	    <texture id="ui_inGame2_radiation_inv_green" x="7" y="585" width="46" height="46" />
+	    <texture id="ui_inGame2_radiation_inv_yellow" x="58" y="585" width="46" height="46" />
+	    <texture id="ui_inGame2_radiation_inv_red" x="109" y="585" width="46" height="46" />
 
-	<file name="ui\ui_inv_atribute" scale="2">
-	    <texture id="ui_inGame2_weapon_highlighter" x="6" y="6" width="99" height="312" />
-		<texture id="ui_inGame2_helmet_highlighter" x="111" y="6" width="115" height="121" />
-		<texture id="ui_inGame2_armor_highlighter" x="111" y="134" width="115" height="184" />
-		<texture id="ui_inGame2_detector_highlighter" x="6" y="324" width="159" height="62" />
-		<texture id="ui_inGame2_pistol_highlighter" x="6" y="324" width="159" height="62" />
-		<texture id="ui_inGame2_quick_item_highlighter" x="6" y="393" width="81" height="69" />
-		<texture id="ui_inGame2_artefakt_highlighter" x="7" y="469" width="63" height="63" />
+	    <texture id="ui_inGame2_bleeding_inv_green" x="7" y="533" width="46" height="46" />
+	    <texture id="ui_inGame2_bleeding_inv_yellow" x="58" y="533" width="46" height="46" />
+	    <texture id="ui_inGame2_bleeding_inv_red" x="109" y="533" width="46" height="46" />
    </file>
 
-   <!-- Gunslinger Mod configuration is used -->
-   <file name="ui\ui_addon_backpack_16" scale="2">
+   <file name="ui\ui_addon_inventory_16" scale="2">
 		<texture id="ui_addon_tech_16" x="0" y="0" width="469" height="768" />
 		<texture id="ui_addon_backpack_16" x="555" y="0" width="469" height="768" />
-		<texture id="ui_addonl_trade_16" x="555" y="860" width="469" height="164" />
+		<texture id="ui_addon_trade_16" x="555" y="861" width="469" height="162" />
 		<texture id="ui_addon_bigbutton_16_e" x="5" y="947" width="317" height="24" />
 		<texture id="ui_addon_bigbutton_16_h" x="5" y="971" width="317" height="24" />
 		<texture id="ui_addon_bigbutton_16_t" x="5" y="995" width="317" height="24" />
 		<texture id="ui_addon_bigbutton_16_d" x="5" y="947" width="317" height="24" />
-   </file>
-   <!-- Gunslinger Mod configuration is used -->
-</w>
 
+		<texture id="ui_inGame2_red_part_3" x="8" y="534" width="45" height="45" />
+	    <texture id="ui_inGame2_yeloow_part_2" x="61" y="534" width="45" height="45" />
+	    <texture id="ui_inGame2_green_part_1" x="112" y="534" width="45" height="45" />
+   </file>
+</w>
